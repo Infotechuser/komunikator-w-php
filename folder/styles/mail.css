@@ -1,0 +1,30 @@
+header {
+  border-bottom: 0.063rem solid black;
+}
+header .header_container {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_container ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header .header_container ul li {
+  margin-left: 1rem;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+header .header_container ul li:hover {
+  border-bottom: 0.063rem solid black;
+}
+
+footer {
+  text-align: center;
+  padding: 5rem;
+  border-top: 0.063rem solid black;
+}/*# sourceMappingURL=mail.css.map */
