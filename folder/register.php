@@ -7,12 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <header>Logowanie</header></br>
-    <form method="POST" action="log.php">
+    <header>Rejestracja</header></br>
+    <form action="rej.php">
        Login: <input type="text" name="login">
        Hasło: <input type="password" name="haslo">
-       <input type="submit" value="Zaloguj">
+       <input type="submit" value="Zarejestruj">
     </form>
-    <button><a href="register.php">Zarejestruj się</a></button>
 </body>
 </html>
